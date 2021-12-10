@@ -13,41 +13,12 @@ body{
     height: 70px;
 }
 .patinho1{
-    transform: translate(470px, 40px);
+    margin-top: 20px;
+    padding-left: 580px;
 }
 .patinho2{
     margin: 10px 0px;
     transform: translate(800px, -110px);
-}
-.patinha{
-    position: absolute;
-    width: 90px;
-    height: 90px;
-    transform: translatey(400px);
-}
-.patinha2{
-    position: absolute;
-    width: 90px;
-    height: 90px;
-    transform: translatey(990px);
-}
-.patinha3{
-    position: absolute;
-    width: 90px;
-    height: 90px;
-    transform: translate(1200px, 200px);
-}
-.patinha4{
-    position: absolute;
-    width: 90px;
-    height: 90px;
-    transform: translate(1200px, 780px);
-}
-.patinha5{
-    position: absolute;
-    width: 90px;
-    height: 90px;
-    transform: translate(1200px, 1250px);
 }
 .flex-container{
     display: flex;
@@ -72,7 +43,9 @@ header{
     background-size: contain;
 }
 #logo{
-    width: 10vw;
+    width: 110px;
+    height: 100px;
+    padding: 3px 0px;
     height: auto;
 }
 /* Menu */
@@ -82,16 +55,12 @@ header{
 }
 .opc{
     background-color: #49B420;
-    border-radius: 2em;
-    padding: 0.27rem 1rem;
-    height: 4.2vh;
-    margin: 0em 1em;
+    border-radius: 50px;
+    padding: 5px 15px;
+    height: 29px;
+    margin: 0px 15px;;
     list-style: none;
 }
-
-/* ul li{
-    list-style:none;
-} */
 ul li a{
     text-decoration: none;
     color: #FFA900;
@@ -103,36 +72,44 @@ a:hover{
 /* Sobre Nós */
 .conteiner{
     display: flex;
-    margin: 1em 10em;
+    margin: 25px 0px;
+    margin-left: 50px;
 }
 #img1{
-    width: 21.9vw;
-    height: 41vh;
+    width: 260px;
+    height: 263px;
     margin: 0em 1em;
 }
 .fundo-verde{
+    margin-left: 100px; 
     padding: 1em;
     width: 50vw;
     height: 35vh;
     background-color:#55d18d;
 }
 /* Produtos */
+#Produtos div{
+    margin-left: 40px;
+}
 .prod{
     display: flex;
     flex-direction: column;
-    justify-content: end;
     background-color: #55d18d;
-    width: 10vw;
-    height: 30vh;
+    width: 130px;
+    height: 200px;
     margin: 1em 1em;
     padding:1em;
     border-radius: 1em;
     box-shadow: 0.11em 0.11em gray;
     cursor: pointer;
 }
+.prod:hover{
+    transform:scale(1.1)
+}
 .imgP{
     background-color: white;
-    height: 21vh;
+    height: 140px;
+    margin-bottom: 5px;
 }
 .prod:hover{
     box-shadow: 0.1em 0.2em 0.2em 0.4em gray;
@@ -142,78 +119,64 @@ button{
     border-radius: 1em;
     border: none;
     padding: 0.5em;
-    cursor: pointer;
 }
 /* Serviços */
 .serviços{
     display: flex;
     flex-direction: column;
     width: 65vw;
+    margin-left: 150px;
+    padding: 15px 60px;
 }
-/* .serviços ul{
-    padding-top: 40px;
-} */
 .serviços ul{
-    margin: 0em 3em;
+    margin: 1px 10px;
     list-style: url();
 }
-/* .conteiner2{
-    margin: 1em 10em;
-    width: 65vw;
-} */
 .ossinho li{
     list-style:url(../Img/Osso.png);
-    transform: translate(0px, -40px);
-}
-/* .fundo-verde .flex-container{
-    padding: 0em 3em;
-} */
-.espco{
-    padding: 3em;
+    line-height: 10px;
+    margin-top: -2px;
+    padding-bottom: 1px;
 }
 /* Contatos */
+#Contato div{
+    position: relative;
+}
+#Contato p{
+    margin-left: 100px;
+}
 .cont{
     width: 7vw;
     height: 15vh;
-    margin: 0px 200px;
-    /* transform: translate(20em, -1em); */
+    margin-left: 500px;
+    position: absolute;
+    transform: translate(60px, -80px);
+    cursor: pointer;
 }
 .cont:hover{
     filter: invert(1);
 }
-.contatos{
-    display: flex;
-    flex-direction: column;
-    transform: translate(400px, -114px);
-}
 .cont2{
     width: 9vw;
     height: 20vh;
-    transform: translate(187px, 0px);
-    /* transform: translate(19em, -3em); */
-    /* filter: hue-rotate(60.0deg); */
+    margin-left: 500px;
+    transform: translate(50px, 10px);
+    cursor: pointer;
 }
 .cont2:hover{
     filter:hue-rotate(979deg);
 }
-#contato{
-    padding-left: 140px;
-}
 .rodape{
-    padding: 2em;
+    padding: 2%;
     background-color: #13CE66;
 }
 .seta{
-    position: absolute;
     width: 150px;
     height: 300px;
 }
 .seta1{
     transform: rotatez(900deg)
-    translate(100px, 30px);
-}
-.seta2{
-    transform: translate(850px, 0px);
+    translateY(30px);
 }
 .patinha6{
     position: absolute;
